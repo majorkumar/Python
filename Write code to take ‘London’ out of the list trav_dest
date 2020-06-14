@@ -1,0 +1,9 @@
+Write code to take ‘London’ out of the list trav_dest
+
+trav_dest = ['Beirut', 'Milan', 'Pittsburgh', 'Buenos Aires', 'Nairobi', 'Kathmandu', 'Osaka', 'London', 'Melbourne']
+for i in trav_dest:
+    if(i == "London"):
+        trav_dest.remove(i)
+    else:
+        print(i)
+print(trav_dest)
